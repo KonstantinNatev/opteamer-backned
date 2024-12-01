@@ -27,4 +27,5 @@ public class Inventory {
     private Asset asset;
 
     private Integer count;
+
 }
