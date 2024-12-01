@@ -1,7 +1,6 @@
 package io.kan.opteammer.rest;
 
 import io.kan.opteammer.dto.AssetDTO;
-import io.kan.opteammer.model.Asset;
 import io.kan.opteammer.services.AssetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
