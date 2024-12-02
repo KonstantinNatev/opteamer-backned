@@ -23,6 +23,8 @@ public class SecurityConfig {
                         .requestMatchers("/api/inventories/**").permitAll()
                         .requestMatchers("/api/preoperative-assessment").permitAll()
                         .requestMatchers("/api/preoperative-assessment/**").permitAll()
+                        .requestMatchers("/api/patients").permitAll()
+                        .requestMatchers("/api/patients/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .logout((logout) -> logout.permitAll());
