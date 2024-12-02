@@ -6,7 +6,6 @@ import io.kan.opteammer.model.Asset;
 import io.kan.opteammer.model.Inventory;
 import io.kan.opteammer.repositories.AssetRepository;
 import io.kan.opteammer.repositories.InventoryRepository;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
