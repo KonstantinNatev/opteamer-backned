@@ -9,12 +9,6 @@ import lombok.Setter;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * @author degijanos
- * @version 1.0
- * @since 2024. 06. 13.
- */
-
 @Entity
 @Table(name = "OPERATION_TYPES")
 @NoArgsConstructor
